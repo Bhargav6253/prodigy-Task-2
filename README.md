@@ -13,11 +13,11 @@
 
  ### Project: PIXEL MANIPULATION for IMAGE ENCRYPTION
  
- ### Objective
+ ### Objective:
 
 The objective of this task is to develop a basic image encryption and decryption system using pixel manipulation techniques. This task aims to provide an understanding of how image data can be secured by modifying pixel values using a secret key.
 
-### Key Activities
+### Key Activities:
 
 Studied the fundamentals of image encryption and pixel manipulation
 Designed encryption and decryption logic using a key-based approac
