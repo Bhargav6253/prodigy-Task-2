@@ -25,7 +25,7 @@ Implemented pixel value modification using Pytho
 Developed functions to encrypt and decrypt image files
 Tested the program with different key values to ensure accurate results
 
- ### Technologies Used
+ ### Technologies Used:
 
 Programming Language: Python
 
