@@ -1,0 +1,49 @@
+This program encrypts an image by modifying its pixel values using a secret key.
+Each pixel’s RGB values are altered during encryption and restored during decryption using the same key. 
+This demonstrates basic image encryption through pixel manipulation.
+
+
+from PIL import Image
+
+def encrypt_image(input_image, output_image, key):
+    img = Image.open(input_image).convert("RGB")
+    pixels = img.load()
+
+    for x in range(img.width):
+        for y in range(img.height):
+            r, g, b = pixels[x, y]
+            pixels[x, y] = (
+                (r + key) % 256,
+                (g + key) % 256,
+                (b + key) % 256
+            )
+
+    img.save(output_image)
+    print("Image encrypted successfully.")
+
+
+def decrypt_image(input_image, output_image, key):
+    img = Image.open(input_image).convert("RGB")
+    pixels = img.load()
+
+    for x in range(img.width):
+        for y in range(img.height):
+            r, g, b = pixels[x, y]
+            pixels[x, y] = (
+                (r - key) % 256,
+                (g - key) % 256,
+                (b - key) % 256
+            )
+
+    img.save(output_image)
+    print("Image decrypted successfully.")
+
+choice = input("Enter encrypt or decrypt: ").lower()
+key = int(input("Enter key value (0–255): "))
+
+if choice == "encrypt":
+    encrypt_image("input.png", "encrypted.png", key)
+elif choice == "decrypt":
+    decrypt_image("encrypted.png", "decrypted.png", key)
+else:
+    print("Invalid choice")
