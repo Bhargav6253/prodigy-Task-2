@@ -1,12 +1,12 @@
-*Nmae:* RACHARLA KALKI BHARGAV
+**Name**:* RACHARLA KALKI BHARGAV
 
-*Company:* PRODIGY INFOTECH
+**company**:* PRODIGY INFOTECH
 
-*Intern ID:* PIT/JAN26/10509
+**Intern ID**:PIT/JAN26/10509
 
-*Domain:* Cyber Security
+**Domain**: Cyber Security
 
-*Internship Duration:* 15th January 2026 – February 2026
+**Internship Duration**: 15th January 2026 – February 2026
 
 
  ## Overview of the Project
