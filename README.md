@@ -15,21 +15,19 @@
  
  ### Objective
 
-The objective of this project is to develop a simple image encryption and decryption tool using pixel manipulation techniques. The project aims to demonstrate basic cybersecurity concepts by modifying pixel values of an image using a secret key, thereby ensuring data confidentiality and understanding the fundamentals of image-based encryption.
+The objective of this project is to implement the Caesar Cipher algorithm using Python to perform encryption and decryption of text. The project aims to help understand basic cryptographic concepts by shifting characters using a user-defined key.
 
 ### Key Activities
 
-Studied the concept of image encryption using pixel manipulation
-Designed encryption and decryption logic based on a secret key
-Implemented pixel value modification using Python and Pillow library
-Developed functions to encrypt and decrypt images
-Tested the program with different key values and images
-Verified successful recovery of the original image after decryption
+Studied the working principle of the Caesar Cipher
+Designed logic for text encryption and decryption
+Implemented character shifting using a shift value
+Handled uppercase, lowercase, and non-alphabet characters
+Tested the program with different input values
 
  ### Technologies Used
 
 Programming Language: Python
-Library: Pillow (PIL) for image processing
+Concepts: Cryptography basics, Caesar Cipher
 Tools: Python Interpreter, VS Code / IDLE
 Domain: Cyber Security
-Concepts: Image Processing, Pixel Manipulation, Encryption & Decryption
