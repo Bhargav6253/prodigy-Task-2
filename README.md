@@ -11,23 +11,26 @@
 
  ## Overview of the Project
 
- ### Project: IMPLEMENT CAESAR CIPHER
+ ### Project: PIXEL MANIPULATION for IMAGE ENCRYPTION
  
  ### Objective
 
-The objective of this project is to implement the Caesar Cipher algorithm using Python to perform encryption and decryption of text. The project aims to help understand basic cryptographic concepts by shifting characters using a user-defined key.
+The objective of this task is to develop a basic image encryption and decryption system using pixel manipulation techniques. This task aims to provide an understanding of how image data can be secured by modifying pixel values using a secret key.
 
 ### Key Activities
 
-Studied the working principle of the Caesar Cipher
-Designed logic for text encryption and decryption
-Implemented character shifting using a shift value
-Handled uppercase, lowercase, and non-alphabet characters
-Tested the program with different input values
+Studied the fundamentals of image encryption and pixel manipulation
+Designed encryption and decryption logic using a key-based approac
+Implemented pixel value modification using Pytho
+Developed functions to encrypt and decrypt image files
+Tested the program with different key values to ensure accurate results
 
  ### Technologies Used
 
-**Programming Language**: Python
-**Concepts**: Cryptography basics, Caesar Cipher
-**Tools**: Python Interpreter, VS Code / IDLE
-**Domain**: Cyber Security
+Programming Language: Python
+
+Concepts: Cryptography basics, Caesar Cipher
+
+Tools: Python Interpreter, VS Code / IDLE
+
+Domain: Cyber Security
