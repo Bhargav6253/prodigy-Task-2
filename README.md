@@ -20,18 +20,14 @@ The objective of this project is to implement the Caesar Cipher algorithm using 
 ### Key Activities
 
 Studied the working principle of the Caesar Cipher
-
 Designed logic for text encryption and decryption
-
 Implemented character shifting using a shift value
-
 Handled uppercase, lowercase, and non-alphabet characters
-
 Tested the program with different input values
 
  ### Technologies Used
 
-Programming Language: Python
-Concepts: Cryptography basics, Caesar Cipher
-Tools: Python Interpreter, VS Code / IDLE
-Domain: Cyber Security
+**Programming Language**: Python
+**Concepts**: Cryptography basics, Caesar Cipher
+**Tools**: Python Interpreter, VS Code / IDLE
+**Domain**: Cyber Security
