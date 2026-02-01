@@ -1,8 +1,8 @@
-**Name**:RACHARLA KALKI BHARGAV
+**Name**: RACHARLA KALKI BHARGAV
 
-**company**:PRODIGY INFOTECH
+**company**: PRODIGY INFOTECH
 
-**Intern ID**:PIT/JAN26/10509
+**Intern ID**: PIT/JAN26/10509
 
 **Domain**: Cyber Security
 
